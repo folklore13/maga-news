@@ -1,7 +1,7 @@
 @extends('layouts.home')
 
 @section('content')
-    <section id="Header" class="w-[770px] text-center mx-auto flex flex-col gap-y-4">
+    <section id="Header" class="w-[770px] mt-3 text-center mx-auto flex flex-col gap-y-4">
       <p class="text-[#A3A6AE]">12 Jun, 2024 • Business</p>
       <h1 class="font-bold text-[46px] leading-[60px]">Peternak Jakarta Menggunakan Bantuan A.I Prexpeliangga</h1>
       <div class="flex items-center mx-auto gap-x-[70px]">
