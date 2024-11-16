@@ -15,8 +15,8 @@ return new class extends Migration {
             $table->foreignId('category_id')
                 ->references('id')
                 ->on('categories')
-                ->restrictOnDelete()
-                ->cascadeOnUpdate();
+                ->cascadeOnUpdate()
+                ->restrictOnDelete();
             $table->foreignId('user_id')
                 ->references('id')
                 ->on('users')
